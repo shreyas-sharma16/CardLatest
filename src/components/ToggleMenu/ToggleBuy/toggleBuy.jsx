@@ -8,7 +8,7 @@ const ToggleBuy = () => {
   const [currency2, setCurrency2] = useState("USD");
   const [selected, setSelected] = useState("buy");
   return (
-    <div className="toggle-content">
+    <div className="toggle-buy">
       {selected === "buy" && (
         <div>
           <form>

@@ -1,0 +1,26 @@
+.toggle-sell {
+    margin: 20px;
+}
+  
+.amount-input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border-right: 0;
+    background-color: #fff;
+}
+
+.currency-select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: 0;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    background-color: #fff;
+}
+
+.amount-row{
+    display: flex;
+}
+

@@ -8,7 +8,7 @@ const ToggleSell = () => {
   const [currency2, setCurrency2] = useState("USD");
   const [selected, setSelected] = useState("sell");
   return (
-    <div className="toggle-content">
+    <div className="toggle-sell">
       {selected === "sell" && (
         <div>
           <div className="trade-container">
