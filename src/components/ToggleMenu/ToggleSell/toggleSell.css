@@ -1,5 +1,5 @@
 .toggle-sell {
-    margin: 20px;
+    margin: 12px;
 }
   
 .amount-input{
@@ -22,5 +22,6 @@
 
 .amount-row{
     display: flex;
+    padding: 3%;
+    justify-content: space-between;
 }
-

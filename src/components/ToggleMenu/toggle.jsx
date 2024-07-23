@@ -35,7 +35,8 @@ const Toggle = () => {
           Sell
         </label>
       </div>
-      <h4>Amount</h4>
+      <h4 style={{ margin: '5%' }}>Amount</h4>
+
       <div className="toggle-content">
         {selected === "buy" && (
           <div>

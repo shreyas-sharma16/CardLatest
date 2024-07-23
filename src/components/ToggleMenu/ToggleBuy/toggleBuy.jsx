@@ -13,7 +13,6 @@ const ToggleBuy = () => {
         <div>
           <form>
             <div className="trade-container">
-              <div className="trade-section">
                 <div className="amount-row">
                   <input
                     type="text"
@@ -48,7 +47,33 @@ const ToggleBuy = () => {
                     <option value="GBP">GBP</option>
                   </select>
                 </div>
-              </div>
+                {/* <h4 style={{ margin: "5%" }}>Summary</h4> */}
+                <table style={{ borderCollapse: "collapse", width: "100%" }}>
+                  <tbody>
+                    <tr>
+                      <td style={{ margin: "5%", fontWeight: "bold" }}>
+                        Summary
+                      </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td style={{ padding: "8px", color: "#A0A0A0" }}>
+                        Entry Price
+                      </td>
+                      <td style={{ padding: "8px", textAlign: "right" }}>
+                        $3,200.00
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style={{ padding: "8px", color: "#A0A0A0" }}>
+                        Trading Fee
+                      </td>
+                      <td style={{ padding: "8px", textAlign: "right" }}>
+                        $320.00 of $3,200.00 (10%)
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
             </div>
           </form>
         </div>

@@ -5,7 +5,7 @@ import Toggle from "../ToggleMenu/toggle";
 const Card = () => {
   return (
     <div className="card">
-      <h2 className="title">Trade</h2>
+      <h2 style={{ margin: '5%' }} >Trade</h2>
       <div className="toggle">
         <Toggle />
       </div>
