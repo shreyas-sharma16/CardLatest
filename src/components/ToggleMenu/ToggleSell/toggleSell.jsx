@@ -7,6 +7,10 @@ const ToggleSell = () => {
   const [amount2, setAmount2] = useState("");
   const [currency2, setCurrency2] = useState("USD");
   const [selected, setSelected] = useState("sell");
+
+  function sellBtnClick() {
+    alert("Currency Sold!");
+  }
   return (
     <div className="toggle-sell">
       {selected === "sell" && (
@@ -70,6 +74,33 @@ const ToggleSell = () => {
                 </tr>
               </tbody>
             </table>
+            <div className="tinyText">
+              <div className="adaVal">
+                <img
+                  width="20"
+                  height="20"
+                  id="iLogo"
+                  src="https://img.icons8.com/plumpy/24/info.png"
+                  alt="info"
+                />
+                <p>ADA Value : $0.3456</p>
+              </div>
+              <div className="oneTimePurchase">
+                <img
+                  width="20"
+                  height="20"
+                  id="clkLogo"
+                  src="https://img.icons8.com/forma-regular-filled/24/7950F2/clock.png"
+                  alt="clock"
+                />
+                <p>One time Purchase</p>
+              </div>
+            </div>
+            <div className="sellButton">
+              <button id="btn" onClick={sellBtnClick}>
+                Sell
+              </button>
+            </div>
           </div>
         </div>
       )}

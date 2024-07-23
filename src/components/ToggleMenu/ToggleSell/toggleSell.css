@@ -25,3 +25,54 @@
     padding: 3%;
     justify-content: space-between;
 }
+
+.sellButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#btn{
+    padding-inline:40%;
+    background: #4834d4;
+    color: white;
+    border: 0 ;
+    border-radius: 5%;
+    padding-block: 3%;
+}
+
+#btn:hover{
+    opacity: 90%;
+}
+
+.adaVal{
+    display: flex;
+    font-size: x-small;
+    margin-left: 5%;
+}
+
+#iLogo{
+    margin-top: 5%;
+}
+p{
+    display: flex;
+    flex-direction: row;
+}
+
+.oneTimePurchase{
+    display: flex;
+    font-size: x-small;
+    margin-left: 10%;
+}
+
+#clkLogo{
+    margin-top: 5%;
+}
+
+.tinyText{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
